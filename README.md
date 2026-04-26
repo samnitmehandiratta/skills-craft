@@ -55,6 +55,66 @@ Beyond passive profiling, Skills-Craft includes a live **voice-based AI validati
 
 ---
 
+## Architecture
+
+```mermaid
+flowchart LR
+  subgraph FE["FRONTEND"]
+    N["Next.js 14\nApp Router"]
+    TS["TypeScript"]
+    TW["Tailwind CSS"]
+    RC["Recharts"]
+    WS["Web Speech API"]
+    N --> TS & TW & RC & WS
+  end
+
+  subgraph BE["BACKEND"]
+    FA["FastAPI · Python"]
+    SK["skills_engine"]
+    VL["validation"]
+    RL["risk_lens"]
+    OM["opportunity_matching"]
+    FA --> SK & VL & RL & OM
+  end
+
+  subgraph AI["AI / LLM"]
+    AB["AWS Bedrock\nClaude 3 Sonnet"]
+    SR["Whisper\nSpeech-to-Text"]
+    TTS["Text-to-Speech"]
+    AB --> SR & TTS
+  end
+
+  subgraph DB["DATA LAYER"]
+    SQ["SQLite · Dev"]
+    PG["PostgreSQL 16 · Prod"]
+    PV["pgvector\nSkill Embeddings"]
+    SS["In-Memory\nSession Store"]
+    PG --> PV
+  end
+
+  subgraph AUTH["AUTH"]
+    WA["WhatsApp OTP\nDailymails API"]
+    JW["Bearer Token\n30-day expiry"]
+    WA --> JW
+  end
+
+  subgraph DS["DATA SOURCES"]
+    ES["ESCO v1.1\n13,890 skills"]
+    FO["Frey-Osborne 2013\nAutomation Risk"]
+    IL["ILO ILOSTAT\nLabor Market"]
+    WB["World Bank WDI\nGDP · HCI"]
+    IS["ISCO-08\nUniversal Anchor"]
+    IS --> ES & FO & IL
+  end
+
+  FE -->|"REST / JSON"| BE
+  BE --> AI & DB & AUTH & DS
+```
+
+> Interactive version: [View in FigJam →](https://www.figma.com/board/hXB9lzb4hLV2cmg4RbKs7l)
+
+---
+
 ## Tech Stack
 
 | Layer | Technology | Why |
