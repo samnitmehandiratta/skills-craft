@@ -38,6 +38,12 @@ backend/data/*.db
 backend/data/*.db-wal
 backend/data/*.db-shm
 
+# ── Docs / uploads ────────────────────────────────────────────────────────────
+*.docx
+*.pdf
+*.xlsx
+*.pptx
+
 # ── OS ────────────────────────────────────────────────────────────────────────
 .DS_Store
 Thumbs.db
