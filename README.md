@@ -136,6 +136,10 @@ Open [http://localhost:3000](http://localhost:3000).
 
 ---
 
-## Team
+## Team — Euphoria
 
-Built by **Samnit Mehandiratta** · [samnitmehandiratta@gmail.com](mailto:samnitmehandiratta@gmail.com)
+| Name | Role |
+|---|---|
+| **Kanak Yadav** | Frontend — Next.js, UI/UX, design system |
+| **Lakshay Singh** | Backend — FastAPI, skill engine, opportunity matching, risk lens |
+| **Samnit Mehandiratta** | AI/ML, Auth, Data Models — LLM integration, validation interview, ESCO graph, WhatsApp OTP, database schema |
