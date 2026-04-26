@@ -1,4 +1,4 @@
-# Skills-Craft — UNMAPPED
+# Skills-Craft —UNMAPPED
 
 > **Closing the distance between real skills and economic opportunity in the age of AI.**
 
