@@ -1,0 +1,107 @@
+country_code: "IN"
+country_name: "India"
+language: "en"
+currency: "INR"
+currency_name: "Indian Rupee"
+flag_emoji: "🇮🇳"
+region: "South Asia"
+
+labor_data:
+  ilo_ref_area: "IND"
+  wdi_country_code: "IND"
+  informal_economy_pct: 0.90
+
+education_taxonomy:
+  levels:
+    - "No formal education"
+    - "Primary (Class 1-5)"
+    - "Middle School (Class 6-8)"
+    - "Secondary (Class 9-10 / SSC)"
+    - "Higher Secondary (Class 11-12 / HSC)"
+    - "ITI / Polytechnic / Diploma"
+    - "Graduate (BA/B.Com/B.Sc)"
+  tvet_institutions: ["ITI", "NSDC", "Polytechnic", "Skill India Centers"]
+  credential_label: "SSC / HSC / ITI Certificate"
+
+automation:
+  calibration_factor: 0.68
+  at_risk_threshold: 0.70
+  durable_threshold: 0.30
+  rationale: "Large informal sector absorbs displaced workers; low wage floors delay capital substitution"
+
+sector_vocabulary:
+  - "anganwadi"
+  - "MGNREGA"
+  - "kirana store"
+  - "auto-rickshaw"
+  - "chit fund"
+  - "jugaad"
+  - "khatabook"
+  - "self-help group"
+
+informal_economy_activities:
+  - phrase: "kirana store"
+    hidden_skill_hints:
+      - "inventory management"
+      - "credit tracking"
+      - "supplier relationship management"
+      - "demand forecasting"
+  - phrase: "self-help group"
+    hidden_skill_hints:
+      - "group facilitation"
+      - "collective savings management"
+      - "peer accountability"
+      - "microfinance literacy"
+  - phrase: "auto-rickshaw"
+    hidden_skill_hints:
+      - "route optimization"
+      - "customer negotiation"
+      - "vehicle maintenance"
+      - "time management"
+  - phrase: "anganwadi"
+    hidden_skill_hints:
+      - "child development knowledge"
+      - "community health awareness"
+      - "record keeping"
+      - "parent engagement"
+
+opportunity_types:
+  - formal_employment
+  - self_employment
+  - gig_work
+  - apprenticeship
+  - vocational_upskilling
+  - government_scheme_eligibility
+
+wage_bands:
+  informal_minimum: 8000
+  formal_entry: 15000
+  skilled_trade: 25000
+  digital_economy: 45000
+  currency: "INR"
+
+intake_prompts:
+  greeting: "Hello! I'm here to help map your skills and connect you with opportunities in India."
+  language_question: "What languages do you speak? (e.g. Hindi, Tamil, Bengali, Telugu, English)"
+
+wdi_indicators:
+  youth_unemployment: "SL.UEM.1524.ZS"
+  employment_ratio: "SL.EMP.TOTL.SP.ZS"
+  gdp_per_capita: "NY.GDP.PCAP.CD"
+
+top_sectors:
+  - name: "Information Technology & Services"
+    growth_rate: 0.15
+    ilo_code: "J"
+  - name: "Manufacturing & Textiles"
+    growth_rate: 0.07
+    ilo_code: "C"
+  - name: "Healthcare & Wellness"
+    growth_rate: 0.12
+    ilo_code: "Q"
+  - name: "Agriculture & Food Processing"
+    growth_rate: 0.05
+    ilo_code: "A"
+  - name: "Construction"
+    growth_rate: 0.08
+    ilo_code: "F"

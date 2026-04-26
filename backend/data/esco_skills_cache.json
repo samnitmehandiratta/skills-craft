@@ -1,0 +1,1310 @@
+{
+  "agentic ai": {
+    "esco_uri": "http://data.europa.eu/esco/skill/e465a154-93f7-4973-9ce1-31659fe16dd2",
+    "esco_label": "principles of artificial intelligence",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/isced-f/0619"
+    ]
+  },
+  "llm integration": {
+    "esco_uri": "http://data.europa.eu/esco/skill/6f7512ab-d46d-402a-8c30-a8878d7c1f88",
+    "esco_label": "SQL Server Integration Services",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/isced-f/0612"
+    ]
+  },
+  "incident triage": {
+    "esco_uri": "http://data.europa.eu/esco/skill/e704d860-6f06-401e-abb3-a7fb959c046f",
+    "esco_label": "triage clients",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S3.2.5"
+    ]
+  },
+  "python programming": {
+    "esco_uri": "http://data.europa.eu/esco/skill/ccd0a1d9-afda-43d9-b901-96344886e14d",
+    "esco_label": "Python (computer programming)",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/isced-f/0613"
+    ]
+  },
+  "sql": {
+    "esco_uri": "http://data.europa.eu/esco/skill/598de5b0-5b58-4ea7-8058-a4bc4d18c742",
+    "esco_label": "SQL",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/isced-f/0613"
+    ]
+  },
+  "ci/cd": {
+    "esco_uri": "http://data.europa.eu/esco/skill/f47a1998-0beb-43be-9f46-380aa4d183da",
+    "esco_label": "Jenkins (tools for software configuration management)",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/isced-f/0613"
+    ]
+  },
+  "logging": {
+    "esco_uri": "http://data.europa.eu/esco/skill/e8488824-3865-4d2a-97e9-fe4647d6add3",
+    "esco_label": "logging",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/isced-f/0821"
+    ]
+  },
+  "observability": {
+    "esco_uri": "http://data.europa.eu/esco/skill/a33b13de-9108-43f7-a0a2-0542528849ca",
+    "esco_label": "observe healthcare users",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S2.8.6"
+    ]
+  },
+  "mlops/llmops": {
+    "esco_uri": "",
+    "esco_label": "MLOps/LLMOps",
+    "skill_type": "skill",
+    "broader_concept": ""
+  },
+  "hallucination mitigation": {
+    "esco_uri": "http://data.europa.eu/esco/skill/707c54fb-b6b8-45a4-9abd-030a40a582c9",
+    "esco_label": "manage currency exchange risk mitigation techniques",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S2.7.5"
+    ]
+  },
+  "java programming": {
+    "esco_uri": "http://data.europa.eu/esco/skill/19a8293b-8e95-4de3-983f-77484079c389",
+    "esco_label": "Java (computer programming)",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/isced-f/0613"
+    ]
+  },
+  "rest api design": {
+    "esco_uri": "http://data.europa.eu/esco/skill/b0096dc5-2e2d-4bc1-8172-05bf486c3968",
+    "esco_label": "design application interfaces",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S1.11.1"
+    ]
+  },
+  "api design": {
+    "esco_uri": "http://data.europa.eu/esco/skill/b0096dc5-2e2d-4bc1-8172-05bf486c3968",
+    "esco_label": "design application interfaces",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S1.11.1"
+    ]
+  },
+  "communication": {
+    "esco_uri": "http://data.europa.eu/esco/skill/15d76317-c71a-4fa2-aadc-2ecc34e627b7",
+    "esco_label": "communication",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/isced-f/0031"
+    ]
+  },
+  "team collaboration": {
+    "esco_uri": "http://data.europa.eu/esco/skill/fc153ec6-1320-4f13-9158-ebde86c5303e",
+    "esco_label": "liaise with logistics management teams",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S1.2.1"
+    ]
+  },
+  "soc analysis": {
+    "esco_uri": "http://data.europa.eu/esco/skill/48b68726-0fd6-4e03-a5eb-82236516ee7a",
+    "esco_label": "provide cost benefit analysis reports",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S2.2.1"
+    ]
+  },
+  "output validation": {
+    "esco_uri": "http://data.europa.eu/esco/skill/65825c90-dd02-4533-8192-9195c18e1676",
+    "esco_label": "apply validation engineering",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S2.8.1"
+    ]
+  },
+  "explainability": {
+    "esco_uri": "http://data.europa.eu/esco/skill/4f418fd8-2509-46b2-a5b1-722a4d2a382a",
+    "esco_label": "demonstrate games",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S1.3.3"
+    ]
+  },
+  "reinforcement learning": {
+    "esco_uri": "http://data.europa.eu/esco/skill/c32a99c4-34c1-464a-9de1-b471f6a3084e",
+    "esco_label": "insert reinforcement in mould",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S6.6.1"
+    ]
+  },
+  "docker": {
+    "esco_uri": "",
+    "esco_label": "Docker",
+    "skill_type": "skill",
+    "broader_concept": ""
+  },
+  "clear communication": {
+    "esco_uri": "http://data.europa.eu/esco/skill/c32ad607-0c4d-4e34-b73f-668298f7bf13",
+    "esco_label": "apply technical communication skills",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S1.4.2"
+    ]
+  },
+  "problem solving": {
+    "esco_uri": "http://data.europa.eu/esco/skill/30d49832-84bd-4d97-9441-aef97a76a8d0",
+    "esco_label": "apply problem solving in social service",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S1.9.1"
+    ]
+  },
+  "research": {
+    "esco_uri": "http://data.europa.eu/esco/skill/b10c9a92-d6ff-40bc-ac64-4705949a2ac7",
+    "esco_label": "perform field research",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S2.1.1"
+    ]
+  },
+  "bricklayer": {
+    "esco_uri": "",
+    "esco_label": "Bricklayer",
+    "skill_type": "skill",
+    "broader_concept": ""
+  },
+  "interior painting": {
+    "esco_uri": "http://data.europa.eu/esco/skill/83aedfbe-5a70-4188-a40f-47c3492105f6",
+    "esco_label": "decontaminate ambulance interior",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S6.11.1"
+    ]
+  },
+  "exterior painting": {
+    "esco_uri": "http://data.europa.eu/esco/skill/a7de380c-0a38-4c5b-a323-b3a9e5d472fa",
+    "esco_label": "perform general maintenance on ship exteriors",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S8.7.2"
+    ]
+  },
+  "tile laying": {
+    "esco_uri": "http://data.europa.eu/esco/skill/504d99c7-395b-479c-815b-2f77ef769e75",
+    "esco_label": "lay tiles",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S7.3.4"
+    ]
+  },
+  "plastering": {
+    "esco_uri": "http://data.europa.eu/esco/skill/20f56226-24ed-495f-8bf5-0b2aa6413ba1",
+    "esco_label": "plaster surfaces",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S7.3.2"
+    ]
+  },
+  "scaffolding": {
+    "esco_uri": "http://data.europa.eu/esco/skill/da4f5079-b45d-4e5b-bda0-06e65585ab3d",
+    "esco_label": "dismantle scaffolding",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S7.1.2"
+    ]
+  },
+  "colour mixing": {
+    "esco_uri": "http://data.europa.eu/esco/skill/90c164de-571b-4ec0-b0b1-7ef57dc7bcd8",
+    "esco_label": "prepare colour mixtures",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S6.3.1"
+    ]
+  },
+  "computer applications": {
+    "esco_uri": "http://data.europa.eu/esco/skill/172020d1-e151-445b-8173-e2a5fb16fe51",
+    "esco_label": "utilise computer-aided software engineering tools",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S5.1.0"
+    ]
+  },
+  "dual degree programme": {
+    "esco_uri": "http://data.europa.eu/esco/skill/cbf01241-d126-402a-af28-2eb81e2e24e8",
+    "esco_label": "export regulations of dual-use goods",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/isced-f/0416"
+    ]
+  },
+  "first division with distinction": {
+    "esco_uri": "http://data.europa.eu/esco/skill/0dcea846-04b4-4ffc-8c75-a35c991454b1",
+    "esco_label": "apply first response",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S3.2.0"
+    ]
+  },
+  "sql programming": {
+    "esco_uri": "http://data.europa.eu/esco/skill/c062bab3-3ea0-4291-9220-a2d8fef4bead",
+    "esco_label": "SQL Server",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/isced-f/0612"
+    ]
+  },
+  "javascript programming": {
+    "esco_uri": "http://data.europa.eu/esco/skill/3cd569a2-4f88-4c1e-9995-8dce8c5e51a7",
+    "esco_label": "JavaScript",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/isced-f/0613"
+    ]
+  },
+  "c/c++ programming": {
+    "esco_uri": "http://data.europa.eu/esco/skill/4c016b68-4116-468c-9dc6-42710c239e4a",
+    "esco_label": "C#",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/isced-f/0613"
+    ]
+  },
+  "matlab programming": {
+    "esco_uri": "http://data.europa.eu/esco/skill/c3a03c5a-c260-4c26-9b9a-873abb396f4d",
+    "esco_label": "MATLAB",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/isced-f/0613"
+    ]
+  },
+  "scikit-learn library": {
+    "esco_uri": "http://data.europa.eu/esco/skill/f645997b-e5a3-47e4-b715-65bbfb3e69f5",
+    "esco_label": "display library material",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S1.12.1"
+    ]
+  },
+  "xgboost library": {
+    "esco_uri": "http://data.europa.eu/esco/skill/f645997b-e5a3-47e4-b715-65bbfb3e69f5",
+    "esco_label": "display library material",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S1.12.1"
+    ]
+  },
+  "tensorflow library": {
+    "esco_uri": "http://data.europa.eu/esco/skill/f645997b-e5a3-47e4-b715-65bbfb3e69f5",
+    "esco_label": "display library material",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S1.12.1"
+    ]
+  },
+  "pytorch library": {
+    "esco_uri": "http://data.europa.eu/esco/skill/f645997b-e5a3-47e4-b715-65bbfb3e69f5",
+    "esco_label": "display library material",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S1.12.1"
+    ]
+  },
+  "transformers library": {
+    "esco_uri": "http://data.europa.eu/esco/skill/f645997b-e5a3-47e4-b715-65bbfb3e69f5",
+    "esco_label": "display library material",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S1.12.1"
+    ]
+  },
+  "opencv library": {
+    "esco_uri": "http://data.europa.eu/esco/skill/f645997b-e5a3-47e4-b715-65bbfb3e69f5",
+    "esco_label": "display library material",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S1.12.1"
+    ]
+  },
+  "shap library": {
+    "esco_uri": "http://data.europa.eu/esco/skill/f645997b-e5a3-47e4-b715-65bbfb3e69f5",
+    "esco_label": "display library material",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S1.12.1"
+    ]
+  },
+  "lime library": {
+    "esco_uri": "http://data.europa.eu/esco/skill/55347695-89f8-4df1-bf64-c4548c67b2c9",
+    "esco_label": "transfer quicklime",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S8.4.1"
+    ]
+  },
+  "huggingface library": {
+    "esco_uri": "http://data.europa.eu/esco/skill/f645997b-e5a3-47e4-b715-65bbfb3e69f5",
+    "esco_label": "display library material",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S1.12.1"
+    ]
+  },
+  "langchain library": {
+    "esco_uri": "http://data.europa.eu/esco/skill/f645997b-e5a3-47e4-b715-65bbfb3e69f5",
+    "esco_label": "display library material",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S1.12.1"
+    ]
+  },
+  "streamlit tool": {
+    "esco_uri": "http://data.europa.eu/esco/skill/0f58f88f-d46d-45d7-b0a1-46364e5f7013",
+    "esco_label": "plumbing tools",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/isced-f/0732"
+    ]
+  },
+  "plotly tool": {
+    "esco_uri": "http://data.europa.eu/esco/skill/0f58f88f-d46d-45d7-b0a1-46364e5f7013",
+    "esco_label": "plumbing tools",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/isced-f/0732"
+    ]
+  },
+  "tableau tool": {
+    "esco_uri": "http://data.europa.eu/esco/skill/0f58f88f-d46d-45d7-b0a1-46364e5f7013",
+    "esco_label": "plumbing tools",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/isced-f/0732"
+    ]
+  },
+  "grafana tool": {
+    "esco_uri": "http://data.europa.eu/esco/skill/0f58f88f-d46d-45d7-b0a1-46364e5f7013",
+    "esco_label": "plumbing tools",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/isced-f/0732"
+    ]
+  },
+  "aws s3": {
+    "esco_uri": "",
+    "esco_label": "AWS S3",
+    "skill_type": "skill",
+    "broader_concept": ""
+  },
+  "aws eks": {
+    "esco_uri": "",
+    "esco_label": "AWS EKS",
+    "skill_type": "skill",
+    "broader_concept": ""
+  },
+  "aws lambda": {
+    "esco_uri": "",
+    "esco_label": "AWS Lambda",
+    "skill_type": "skill",
+    "broader_concept": ""
+  },
+  "heroku platform": {
+    "esco_uri": "http://data.europa.eu/esco/skill/778ca7ad-6c5d-4868-9b96-a7777dca799c",
+    "esco_label": "ICT help platforms",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/isced-f/0611"
+    ]
+  },
+  "render platform": {
+    "esco_uri": "http://data.europa.eu/esco/skill/e8171178-9a60-40a6-ad3b-510e10cfebad",
+    "esco_label": "render 3D images",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S1.12.1"
+    ]
+  },
+  "mongodb database": {
+    "esco_uri": "http://data.europa.eu/esco/skill/0df2e216-68ae-4952-b9dc-3c2f2bc04fe3",
+    "esco_label": "maintain database",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S5.5.2"
+    ]
+  },
+  "mysql database": {
+    "esco_uri": "http://data.europa.eu/esco/skill/4da171e5-779c-4983-a76f-91c16751e99f",
+    "esco_label": "MySQL",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/isced-f/0612"
+    ]
+  },
+  "selenium tool": {
+    "esco_uri": "http://data.europa.eu/esco/skill/7557f0f4-b8bc-4ac0-b91e-222ab1ba744f",
+    "esco_label": "tools for ICT test automation",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/isced-f/0613"
+    ]
+  },
+  "beautifulsoup library": {
+    "esco_uri": "http://data.europa.eu/esco/skill/f645997b-e5a3-47e4-b715-65bbfb3e69f5",
+    "esco_label": "display library material",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S1.12.1"
+    ]
+  },
+  "telethon library": {
+    "esco_uri": "http://data.europa.eu/esco/skill/f645997b-e5a3-47e4-b715-65bbfb3e69f5",
+    "esco_label": "display library material",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S1.12.1"
+    ]
+  },
+  "gpt-4 api": {
+    "esco_uri": "http://data.europa.eu/esco/skill/b0096dc5-2e2d-4bc1-8172-05bf486c3968",
+    "esco_label": "design application interfaces",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S1.11.1"
+    ]
+  },
+  "shell scripting": {
+    "esco_uri": "http://data.europa.eu/esco/skill/5ef0c719-5bcb-49f8-b8eb-824388225333",
+    "esco_label": "use scripting programming",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S5.1.0"
+    ]
+  },
+  "root cause analysis": {
+    "esco_uri": "http://data.europa.eu/esco/skill/ed39edd3-44d0-4a16-9796-bfb99f92baf3",
+    "esco_label": "ICT performance analysis methods",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/isced-f/0613"
+    ]
+  },
+  "incident management": {
+    "esco_uri": "http://data.europa.eu/esco/skill/32ac6bfb-8b86-4312-9421-dcb8e0203ab5",
+    "esco_label": "process incident reports for prevention",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S2.2.7"
+    ]
+  },
+  "health-check pipeline automation": {
+    "esco_uri": "http://data.europa.eu/esco/skill/10ac5282-3288-4383-8f69-9864d8564ea9",
+    "esco_label": "inspect pipelines",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S2.8.1"
+    ]
+  },
+  "sql/mongodb querying": {
+    "esco_uri": "http://data.europa.eu/esco/skill/598de5b0-5b58-4ea7-8058-a4bc4d18c742",
+    "esco_label": "SQL",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/isced-f/0613"
+    ]
+  },
+  "cross-team collaboration": {
+    "esco_uri": "http://data.europa.eu/esco/skill/b216d9a2-7d4e-4312-8d05-e375f4ab44d8",
+    "esco_label": "ensure cross-department cooperation",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S1.2.1"
+    ]
+  },
+  "customer satisfaction management": {
+    "esco_uri": "http://data.europa.eu/esco/skill/00e53a0a-c0ba-4c9f-a2ed-4706d5832a00",
+    "esco_label": "guarantee customer satisfaction",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/A1.12.3"
+    ]
+  },
+  "automation tool development": {
+    "esco_uri": "http://data.europa.eu/esco/skill/7557f0f4-b8bc-4ac0-b91e-222ab1ba744f",
+    "esco_label": "tools for ICT test automation",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/isced-f/0613"
+    ]
+  },
+  "ticket management": {
+    "esco_uri": "http://data.europa.eu/esco/skill/a169e144-1fe2-4b07-bd20-1d28a6f7b74b",
+    "esco_label": "monitor ticketing",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S2.8.2"
+    ]
+  },
+  "low-code platform enhancement": {
+    "esco_uri": "http://data.europa.eu/esco/skill/55c16653-343c-4d02-a9de-7d8e864a4592",
+    "esco_label": "Codenvy",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/isced-f/0613"
+    ]
+  },
+  "app delivery optimization": {
+    "esco_uri": "http://data.europa.eu/esco/skill/d47b9f28-8131-4efd-8801-53f226955f21",
+    "esco_label": "periodisation",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/isced-f/0222"
+    ]
+  },
+  "cybercrime case resolution": {
+    "esco_uri": "http://data.europa.eu/esco/skill/303a54a3-ff8a-4f29-b598-e54ce54c2b48",
+    "esco_label": "analyse legal evidence",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S2.7.0"
+    ]
+  },
+  "osint automation tool development": {
+    "esco_uri": "http://data.europa.eu/esco/skill/7557f0f4-b8bc-4ac0-b91e-222ab1ba744f",
+    "esco_label": "tools for ICT test automation",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/isced-f/0613"
+    ]
+  },
+  "iot module programming": {
+    "esco_uri": "http://data.europa.eu/esco/skill/b105ec9b-0857-41d6-8d07-a83e58b73d90",
+    "esco_label": "ICT system programming",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/isced-f/0613"
+    ]
+  },
+  "predictive modeling": {
+    "esco_uri": "http://data.europa.eu/esco/skill/38d49d88-9069-467b-b29e-3cae739bdd4d",
+    "esco_label": "build predictive models",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S2.6.0"
+    ]
+  },
+  "explainability modeling": {
+    "esco_uri": "http://data.europa.eu/esco/skill/6042ba76-e5c9-4b64-b61d-cc96be8dc562",
+    "esco_label": "wound closure techniques",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/isced-f/0912"
+    ]
+  },
+  "lifestyle recommendation": {
+    "esco_uri": "http://data.europa.eu/esco/skill/58ee1bf5-3409-40d1-a8d6-21c1208a46f6",
+    "esco_label": "advise patients on health and lifestyle issues",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S1.5.4"
+    ]
+  },
+  "dark web scraping": {
+    "esco_uri": "http://data.europa.eu/esco/skill/c71384bb-6799-410b-941c-568f56680a30",
+    "esco_label": "types of chocolate",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/isced-f/0721"
+    ]
+  },
+  "real-time anomaly detection": {
+    "esco_uri": "http://data.europa.eu/esco/skill/bf6c5ed4-84af-440f-abcc-7fa5ba19c738",
+    "esco_label": "real-time computing",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/isced-f/0612"
+    ]
+  },
+  "geo-ai urban planning": {
+    "esco_uri": "http://data.europa.eu/esco/skill/1f632076-fd9b-4b18-a9a2-b59a59181d3e",
+    "esco_label": "urban planning law",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/isced-f/0421"
+    ]
+  },
+  "ip and url reverse lookup": {
+    "esco_uri": "http://data.europa.eu/esco/skill/a7a14be2-78b5-4b4a-ba77-2658285e2756",
+    "esco_label": "apply reverse engineering",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S5.1.0"
+    ]
+  },
+  "data cleanup automation": {
+    "esco_uri": "http://data.europa.eu/esco/skill/818c2b89-1335-4443-ada7-e1046862e273",
+    "esco_label": "install automation components",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S5.2.1"
+    ]
+  },
+  "sensitive data detection": {
+    "esco_uri": "http://data.europa.eu/esco/skill/50cc917d-72b0-4eda-8114-79569308f82a",
+    "esco_label": "ensure data protection in aviation operations",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S3.3.6"
+    ]
+  },
+  "agentic ai systems": {
+    "esco_uri": "http://data.europa.eu/esco/skill/e465a154-93f7-4973-9ce1-31659fe16dd2",
+    "esco_label": "principles of artificial intelligence",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/isced-f/0619"
+    ]
+  },
+  "multi-agent orchestration": {
+    "esco_uri": "http://data.europa.eu/esco/skill/e465a154-93f7-4973-9ce1-31659fe16dd2",
+    "esco_label": "principles of artificial intelligence",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/isced-f/0619"
+    ]
+  },
+  "langchain": {
+    "esco_uri": "",
+    "esco_label": "LangChain",
+    "skill_type": "skill",
+    "broader_concept": ""
+  },
+  "automation workflows": {
+    "esco_uri": "http://data.europa.eu/esco/skill/818c2b89-1335-4443-ada7-e1046862e273",
+    "esco_label": "install automation components",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S5.2.1"
+    ]
+  },
+  "structured prompting": {
+    "esco_uri": "http://data.europa.eu/esco/skill/e44a0396-77e2-4d57-8c80-36796238f80c",
+    "esco_label": "prompt performers",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S1.14.2"
+    ]
+  },
+  "rag architectures": {
+    "esco_uri": "http://data.europa.eu/esco/skill/e043aeeb-78f5-4049-afbf-12bba52225bc",
+    "esco_label": "hardware architectures",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/isced-f/0714"
+    ]
+  },
+  "vector search": {
+    "esco_uri": "http://data.europa.eu/esco/skill/ffc1e455-ced2-4e67-bdb3-1c50f9683859",
+    "esco_label": "Capture One",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/isced-f/0611"
+    ]
+  },
+  "log analysis": {
+    "esco_uri": "http://data.europa.eu/esco/skill/fdeabe51-1d92-4770-acfe-eff9769b3d4f",
+    "esco_label": "landscape analysis",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/isced-f/0731"
+    ]
+  },
+  "anomaly detection": {
+    "esco_uri": "http://data.europa.eu/esco/skill/18ab25a5-ce2d-4cd5-b7b0-3890f595f77d",
+    "esco_label": "manage alarm system",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S8.8.1"
+    ]
+  },
+  "python": {
+    "esco_uri": "http://data.europa.eu/esco/skill/ccd0a1d9-afda-43d9-b901-96344886e14d",
+    "esco_label": "Python (computer programming)",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/isced-f/0613"
+    ]
+  },
+  "guardrails": {
+    "esco_uri": "http://data.europa.eu/esco/skill/fff74a70-4f82-4949-9c3b-b335904cf927",
+    "esco_label": "position guardrails and toeboards",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S6.8.2"
+    ]
+  },
+  "fastapi": {
+    "esco_uri": "",
+    "esco_label": "FastAPI",
+    "skill_type": "skill",
+    "broader_concept": ""
+  },
+  "sqlite": {
+    "esco_uri": "",
+    "esco_label": "SQLite",
+    "skill_type": "skill",
+    "broader_concept": ""
+  },
+  "groq/llama": {
+    "esco_uri": "",
+    "esco_label": "Groq/LLaMA",
+    "skill_type": "skill",
+    "broader_concept": ""
+  },
+  "service communication": {
+    "esco_uri": "http://data.europa.eu/esco/skill/f3d8547b-e7c4-4024-8f2d-0ccf3f522779",
+    "esco_label": "use aeronautical mobile service communications",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S8.6.4"
+    ]
+  },
+  "fintech application architecture": {
+    "esco_uri": "http://data.europa.eu/esco/skill/f7e2eb04-3e50-4561-bce1-7e51a1fec308",
+    "esco_label": "define software architecture",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S1.11.1"
+    ]
+  },
+  "huggingface spaces": {
+    "esco_uri": "http://data.europa.eu/esco/skill/dae7b6eb-dea0-4298-9554-d951656e9389",
+    "esco_label": "design open spaces",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S1.11.4"
+    ]
+  },
+  "openenv protocol": {
+    "esco_uri": "http://data.europa.eu/esco/skill/e15b02ed-0264-4d44-9fa3-e29d6b52414a",
+    "esco_label": "create safe working protocols",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S4.1.3"
+    ]
+  },
+  "llm-driven inference loop": {
+    "esco_uri": "http://data.europa.eu/esco/skill/d16e50d7-9b18-4941-adc7-e9ab041cfc1b",
+    "esco_label": "hot winding",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/isced-f/0715"
+    ]
+  },
+  "incident classification": {
+    "esco_uri": "http://data.europa.eu/esco/skill/32bbd1de-4995-4e47-84ab-fb3a2b0cfdf1",
+    "esco_label": "fish identification and classification",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/isced-f/0511"
+    ]
+  },
+  "safe fallbacks": {
+    "esco_uri": "http://data.europa.eu/esco/skill/1666ded9-327f-4d9c-b863-0688dbefdf49",
+    "esco_label": "handle scanning material safely",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S3.3.1"
+    ]
+  },
+  "no-code/low-code ai tools": {
+    "esco_uri": "http://data.europa.eu/esco/skill/449d119b-2d66-43a9-9230-7d27f16afbb6",
+    "esco_label": "Xcode",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/isced-f/0612"
+    ]
+  },
+  "tool/function calling": {
+    "esco_uri": "http://data.europa.eu/esco/skill/580660a6-5d3a-421d-a54f-d85b706c2b2f",
+    "esco_label": "use online tools to collaborate",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S5.6.1"
+    ]
+  },
+  "face recognition": {
+    "esco_uri": "http://data.europa.eu/esco/skill/3dcf0635-4060-4ad9-9864-6ae4241a3609",
+    "esco_label": "characteristics of faces",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/isced-f/1012"
+    ]
+  },
+  "geofencing": {
+    "esco_uri": "",
+    "esco_label": "Geofencing",
+    "skill_type": "skill",
+    "broader_concept": ""
+  },
+  "backend services": {
+    "esco_uri": "http://data.europa.eu/esco/skill/7e8c17fd-3299-4c5a-b67c-32f516364662",
+    "esco_label": "assess quality of services",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S2.8.1"
+    ]
+  },
+  "data pipelines": {
+    "esco_uri": "http://data.europa.eu/esco/skill/484d048c-a5d1-46a5-b57f-45b69c0ac552",
+    "esco_label": "analyse pipeline database information",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S2.7.4"
+    ]
+  },
+  "llm-based decision logic": {
+    "esco_uri": "http://data.europa.eu/esco/skill/a9e6718b-b9d8-44c2-b06e-85ceed9d144c",
+    "esco_label": "use logical reasoning",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S2.7.0"
+    ]
+  },
+  "java": {
+    "esco_uri": "http://data.europa.eu/esco/skill/19a8293b-8e95-4de3-983f-77484079c389",
+    "esco_label": "Java (computer programming)",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/isced-f/0613"
+    ]
+  },
+  "rest apis": {
+    "esco_uri": "http://data.europa.eu/esco/skill/1ce4cddd-4a74-458e-a2d4-152ca939475a",
+    "esco_label": "OWASP ZAP",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/isced-f/0613"
+    ]
+  },
+  "critical thinking": {
+    "esco_uri": "http://data.europa.eu/esco/skill/a9e6718b-b9d8-44c2-b06e-85ceed9d144c",
+    "esco_label": "use logical reasoning",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S2.7.0"
+    ]
+  },
+  "blockchain technology": {
+    "esco_uri": "http://data.europa.eu/esco/skill/c0789fc0-e4b3-483f-a033-212d65413d0d",
+    "esco_label": "anticipate change in car technology",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S2.9.0"
+    ]
+  },
+  "network security": {
+    "esco_uri": "http://data.europa.eu/esco/skill/e5b5053e-0ef6-4c4e-a3f2-42f955f4322c",
+    "esco_label": "implement a firewall",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S5.2.2"
+    ]
+  },
+  "security & ops": {
+    "esco_uri": "http://data.europa.eu/esco/skill/f9738fc9-4d67-43e8-bfda-954123e34d42",
+    "esco_label": "coordinate security",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S3.3.5"
+    ]
+  },
+  "teamwork": {
+    "esco_uri": "http://data.europa.eu/esco/skill/229b10cf-6f3a-490c-9706-01c107df0562",
+    "esco_label": "facilitate teamwork between students",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S4.6.0"
+    ]
+  },
+  "project management": {
+    "esco_uri": "http://data.europa.eu/esco/skill/7111b95d-0ce3-441a-9d92-4c75d05c4388",
+    "esco_label": "project management",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/isced-f/0413"
+    ]
+  },
+  "ci/cd integration": {
+    "esco_uri": "http://data.europa.eu/esco/skill/f47a1998-0beb-43be-9f46-380aa4d183da",
+    "esco_label": "Jenkins (tools for software configuration management)",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/isced-f/0613"
+    ]
+  },
+  "apis, services, and integrations": {
+    "esco_uri": "http://data.europa.eu/esco/skill/6f7512ab-d46d-402a-8c30-a8878d7c1f88",
+    "esco_label": "SQL Server Integration Services",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/isced-f/0612"
+    ]
+  },
+  "internal automation": {
+    "esco_uri": "http://data.europa.eu/esco/skill/818c2b89-1335-4443-ada7-e1046862e273",
+    "esco_label": "install automation components",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S5.2.1"
+    ]
+  },
+  "cross-functional communication": {
+    "esco_uri": "http://data.europa.eu/esco/skill/b216d9a2-7d4e-4312-8d05-e375f4ab44d8",
+    "esco_label": "ensure cross-department cooperation",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S1.2.1"
+    ]
+  },
+  "international communication": {
+    "esco_uri": "http://data.europa.eu/esco/skill/1f6eac42-e5aa-4fa7-a75d-a4eea12c618e",
+    "esco_label": "disseminate internal communications",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S1.2.1"
+    ]
+  },
+  "complex technical issue communication": {
+    "esco_uri": "http://data.europa.eu/esco/skill/1a165a9b-2006-49e1-90b8-c0709933b4a3",
+    "esco_label": "use a complex communication system",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S8.6.4"
+    ]
+  },
+  "tryhackme sal2": {
+    "esco_uri": "",
+    "esco_label": "TryHackMe SAL2",
+    "skill_type": "skill",
+    "broader_concept": ""
+  },
+  "rest api development": {
+    "esco_uri": "http://data.europa.eu/esco/skill/9efc639c-712f-4857-acf9-ad311b7d69f3",
+    "esco_label": "promote balance between rest and activity",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S1.6.2"
+    ]
+  },
+  "research & publication": {
+    "esco_uri": "http://data.europa.eu/esco/skill/a8b3957f-08b4-4a76-927d-0b2e3d0dbd39",
+    "esco_label": "synthesise research publications",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S2.4.1"
+    ]
+  },
+  "incident investigation": {
+    "esco_uri": "http://data.europa.eu/esco/skill/a744db65-78a7-4b3c-8267-0ffe05715901",
+    "esco_label": "coordinate rail services",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S4.2.2"
+    ]
+  },
+  "tool / function calling": {
+    "esco_uri": "http://data.europa.eu/esco/skill/580660a6-5d3a-421d-a54f-d85b706c2b2f",
+    "esco_label": "use online tools to collaborate",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S5.6.1"
+    ]
+  },
+  "embeddings": {
+    "esco_uri": "http://data.europa.eu/esco/skill/2180bd8c-86de-4889-8165-adac902eee9d",
+    "esco_label": "embedded systems",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/isced-f/0714"
+    ]
+  },
+  "latency optimization": {
+    "esco_uri": "http://data.europa.eu/esco/skill/d47b9f28-8131-4efd-8801-53f226955f21",
+    "esco_label": "periodisation",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/isced-f/0222"
+    ]
+  },
+  "cost control": {
+    "esco_uri": "http://data.europa.eu/esco/skill/e1f5c539-7c93-49ee-917d-a24e0d887686",
+    "esco_label": "control of expenses",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S2.8.3"
+    ]
+  },
+  "failure handling": {
+    "esco_uri": "http://data.europa.eu/esco/skill/909eef58-7961-4422-8116-a3af670e38b6",
+    "esco_label": "manage risk of lighting failure",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S2.7.5"
+    ]
+  },
+  "evaluation pipelines": {
+    "esco_uri": "http://data.europa.eu/esco/skill/6a0aab53-6246-41e8-a910-e7a13f314860",
+    "esco_label": "test pipeline infrastructure operations",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S2.8.1"
+    ]
+  },
+  "monitoring": {
+    "esco_uri": "http://data.europa.eu/esco/skill/01f91b5b-3e2f-40a2-ab88-bc8113c0ab37",
+    "esco_label": "monitor drilling fluid",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S2.8.1"
+    ]
+  },
+  "prompt versioning": {
+    "esco_uri": "http://data.europa.eu/esco/skill/e44a0396-77e2-4d57-8c80-36796238f80c",
+    "esco_label": "prompt performers",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S1.14.2"
+    ]
+  },
+  "automation": {
+    "esco_uri": "http://data.europa.eu/esco/skill/818c2b89-1335-4443-ada7-e1046862e273",
+    "esco_label": "install automation components",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S5.2.1"
+    ]
+  },
+  "scripting": {
+    "esco_uri": "http://data.europa.eu/esco/skill/b105ec9b-0857-41d6-8d07-a83e58b73d90",
+    "esco_label": "ICT system programming",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/isced-f/0613"
+    ]
+  },
+  "failure analysis": {
+    "esco_uri": "http://data.europa.eu/esco/skill/a933a46f-d4d8-4e96-a7f7-345725111bfa",
+    "esco_label": "write stress analysis reports",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S1.13.3"
+    ]
+  },
+  "api investigation": {
+    "esco_uri": "http://data.europa.eu/esco/skill/3f82a026-8a37-4b54-9ebb-7702b66eeb24",
+    "esco_label": "perform environmental investigations",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S2.1.1"
+    ]
+  },
+  "backend services development": {
+    "esco_uri": "http://data.europa.eu/esco/skill/029e2bb0-6dd8-4600-bb89-ac7480ae8fb0",
+    "esco_label": "contribute to quality physiotherapy services",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/A1.12.1"
+    ]
+  },
+  "ai-driven decision logic": {
+    "esco_uri": "http://data.europa.eu/esco/skill/a9e6718b-b9d8-44c2-b06e-85ceed9d144c",
+    "esco_label": "use logical reasoning",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S2.7.0"
+    ]
+  },
+  "safe failure modes design": {
+    "esco_uri": "http://data.europa.eu/esco/skill/78ebd783-feaa-466a-85ac-9cc44779c202",
+    "esco_label": "design power plant systems",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S1.11.2"
+    ]
+  },
+  "conversation state management": {
+    "esco_uri": "http://data.europa.eu/esco/skill/693695f4-5ee1-4d35-8ea7-f18ba6a44d84",
+    "esco_label": "engage passers-by in conversation",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S1.6.0"
+    ]
+  },
+  "entity extraction": {
+    "esco_uri": "http://data.europa.eu/esco/skill/4da883cc-056d-4661-8970-da4bbcc1f9e0",
+    "esco_label": "prepare extraction proposals",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S2.2.3"
+    ]
+  },
+  "adaptive personas": {
+    "esco_uri": "http://data.europa.eu/esco/skill/ab1e97ed-2319-4293-a8b7-072d2648822f",
+    "esco_label": "database management systems",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/isced-f/0612"
+    ]
+  },
+  "automated guvi callback integration": {
+    "esco_uri": "http://data.europa.eu/esco/skill/86dd4574-1e4f-4f36-938b-2c1c3c0f75a2",
+    "esco_label": "rig automated lights",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S7.1.8"
+    ]
+  },
+  "explainable ai": {
+    "esco_uri": "http://data.europa.eu/esco/skill/e465a154-93f7-4973-9ce1-31659fe16dd2",
+    "esco_label": "principles of artificial intelligence",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/isced-f/0619"
+    ]
+  },
+  "daily exception detection": {
+    "esco_uri": "http://data.europa.eu/esco/skill/18ab25a5-ce2d-4cd5-b7b0-3890f595f77d",
+    "esco_label": "manage alarm system",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S8.8.1"
+    ]
+  },
+  "forecast accuracy": {
+    "esco_uri": "http://data.europa.eu/esco/skill/ae57a9c3-f761-4b03-be2b-99a781704c73",
+    "esco_label": "use sales forecasting softwares",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S5.5.0"
+    ]
+  },
+  "rule-based filters": {
+    "esco_uri": "http://data.europa.eu/esco/skill/5dfd1b83-8b77-444b-94cd-72f8e13472fa",
+    "esco_label": "legislation in agriculture",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/isced-f/0421"
+    ]
+  },
+  "drift detection": {
+    "esco_uri": "http://data.europa.eu/esco/skill/2c71ffc8-dae9-4584-ae7f-5b3a78c8cc69",
+    "esco_label": "furniture trends",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/isced-f/0722"
+    ]
+  },
+  "feedback loops": {
+    "esco_uri": "http://data.europa.eu/esco/skill/08e2ff26-88ff-47b5-9d37-d19ace01b075",
+    "esco_label": "manage feedback",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S1.8.5"
+    ]
+  },
+  "retrieval-augmented generation": {
+    "esco_uri": "http://data.europa.eu/esco/skill/b552832c-ad26-4901-b76c-232a53c74aba",
+    "esco_label": "coordinate electricity generation",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S1.2.1"
+    ]
+  },
+  "logging & observability": {
+    "esco_uri": "http://data.europa.eu/esco/skill/0c15aa34-6977-4da7-b1f0-2ba6a582ef1b",
+    "esco_label": "monitor logging operations",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S2.8.2"
+    ]
+  },
+  "anti-spoofing detection": {
+    "esco_uri": "http://data.europa.eu/esco/skill/7814e88f-c133-4c3b-b27f-857afa145d42",
+    "esco_label": "ICT security legislation",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/isced-f/0421"
+    ]
+  },
+  "onion router network": {
+    "esco_uri": "http://data.europa.eu/esco/skill/96e78f7e-a14f-4ec3-80bf-e3098f50fdba",
+    "esco_label": "operate wood router",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S8.5.0"
+    ]
+  },
+  "huggingface openenv": {
+    "esco_uri": "",
+    "esco_label": "HuggingFace OpenEnv",
+    "skill_type": "skill",
+    "broader_concept": ""
+  },
+  "anti-spoofing": {
+    "esco_uri": "http://data.europa.eu/esco/skill/6f273e8a-9383-4278-b959-33a0bb406a5e",
+    "esco_label": "anti-dumping law",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/isced-f/0421"
+    ]
+  },
+  "incident communication": {
+    "esco_uri": "http://data.europa.eu/esco/skill/5d1a7c14-188d-4d90-9fcc-51bc1748c58e",
+    "esco_label": "ensure smooth on board operations",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S4.2.0"
+    ]
+  },
+  "incident resolution": {
+    "esco_uri": "",
+    "esco_label": "Incident Resolution",
+    "skill_type": "skill",
+    "broader_concept": ""
+  },
+  "research & publications": {
+    "esco_uri": "http://data.europa.eu/esco/skill/a8b3957f-08b4-4a76-927d-0b2e3d0dbd39",
+    "esco_label": "synthesise research publications",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S2.4.1"
+    ]
+  },
+  "cross-functional collaboration": {
+    "esco_uri": "http://data.europa.eu/esco/skill/d9fe85a8-d69f-40bc-9a1f-57c23ec273cf",
+    "esco_label": "utilise cross-selling",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S1.6.1"
+    ]
+  },
+  "complex problem solving": {
+    "esco_uri": "http://data.europa.eu/esco/skill/14832d87-2f2f-4895-b290-e4760ebae42a",
+    "esco_label": "solve technical problems",
+    "skill_type": "skill",
+    "broader_concept": [
+      "http://data.europa.eu/esco/skill/S5.2.3"
+    ]
+  }
+}

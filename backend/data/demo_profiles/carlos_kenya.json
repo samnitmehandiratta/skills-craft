@@ -1,0 +1,30 @@
+{
+  "profile_id": "demo-carlos-kenya",
+  "session_id": "demo-carlos",
+  "generated_at": "2025-04-26T00:00:00Z",
+  "persona": "carlos_kenya",
+  "country": { "code": "KE", "name": "Kenya", "region": "East Africa" },
+  "summary": "Carlos is a 26-year-old boda boda (motorcycle taxi) operator in Nairobi. He manages his own M-Pesa float, knows every shortcut in the city, and has been saving through a local chama group for 3 years.",
+  "skills": [
+    { "skill": "Motorcycle operation", "category": "technical", "is_hidden": false, "evidence": "Boda boda operator for 4 years", "esco_label": "Motorcycle driver", "esco_uri": "" },
+    { "skill": "Nairobi city navigation", "category": "domain", "is_hidden": false, "evidence": "Knows every shortcut in the city", "esco_label": "Navigation", "esco_uri": "" },
+    { "skill": "Swahili language", "category": "language", "is_hidden": false, "evidence": "Native language", "esco_label": "Swahili", "esco_uri": "" },
+    { "skill": "English language", "category": "language", "is_hidden": false, "evidence": "Uses English with tourists and business clients", "esco_label": "English language", "esco_uri": "" },
+    { "skill": "M-Pesa digital payments", "category": "technical", "is_hidden": false, "evidence": "Manages M-Pesa float for customer payments", "esco_label": "Digital payment processing", "esco_uri": "" },
+    { "skill": "Route optimization", "category": "technical", "is_hidden": true, "source_activity": "Planning fastest routes across Nairobi", "confidence": 0.93, "esco_label": "Route planning", "esco_uri": "" },
+    { "skill": "Real-time risk assessment", "category": "soft", "is_hidden": true, "source_activity": "Navigating traffic and road hazards daily", "confidence": 0.88, "esco_label": "Risk assessment", "esco_uri": "" },
+    { "skill": "Customer trust building", "category": "soft", "is_hidden": true, "source_activity": "Building a loyal client base over 4 years", "confidence": 0.85, "esco_label": "Build customer relationships", "esco_uri": "" },
+    { "skill": "Basic vehicle maintenance", "category": "technical", "is_hidden": true, "source_activity": "Maintaining own motorcycle to minimize downtime", "confidence": 0.87, "esco_label": "Vehicle maintenance", "esco_uri": "" },
+    { "skill": "Float management", "category": "technical", "is_hidden": true, "source_activity": "Managing M-Pesa agent float", "confidence": 0.84, "esco_label": "Manage cash float", "esco_uri": "" },
+    { "skill": "Collective savings management", "category": "technical", "is_hidden": true, "source_activity": "Active chama member for 3 years", "confidence": 0.80, "esco_label": "Cooperative finance", "esco_uri": "" },
+    { "skill": "Time pressure decision making", "category": "soft", "is_hidden": true, "source_activity": "Making split-second routing decisions in traffic", "confidence": 0.82, "esco_label": "Decision making under pressure", "esco_uri": "" }
+  ],
+  "skill_counts": { "total": 12, "explicit": 5, "hidden": 7 },
+  "intake_transcript": [
+    { "question": "What do you spend most of your time doing each day?", "answer": "I ride boda boda from early morning. I pick up passengers and also deliver small packages for businesses in Westlands." },
+    { "question": "What skills have you learned on your own?", "answer": "I know every road in Nairobi. I also learned to manage my M-Pesa so customers can pay me directly without cash." },
+    { "question": "What languages do you speak?", "answer": "Swahili is my first language. I speak English when I carry tourists or business people." },
+    { "question": "Have you ever taught someone or organized people?", "answer": "I am in a chama with 12 other boda boda guys. We save together every month and take turns getting the pot." },
+    { "question": "What tools or technology do you use?", "answer": "My motorcycle, a smartphone with M-Pesa, Google Maps when a customer gives me an address I don't know." }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "profile_id": "demo-priya-india",
+  "session_id": "demo-priya",
+  "generated_at": "2025-04-26T00:00:00Z",
+  "persona": "priya_india",
+  "country": { "code": "IN", "name": "India", "region": "South Asia" },
+  "summary": "Priya is a 24-year-old garment worker from Tirupur with 4 years of factory experience. She manages quality control at her station, keeps household accounts in a khatabook, and has basic English for reading garment specifications.",
+  "skills": [
+    { "skill": "Garment sewing and assembly", "category": "technical", "is_hidden": false, "evidence": "Works in RMG factory for 4 years", "esco_label": "Sewing machine operator", "esco_uri": "" },
+    { "skill": "Quality control inspection", "category": "technical", "is_hidden": false, "evidence": "Manages quality control at her station", "esco_label": "Quality control inspector", "esco_uri": "" },
+    { "skill": "Basic English reading", "category": "language", "is_hidden": false, "evidence": "Reads garment specification sheets", "esco_label": "English language", "esco_uri": "" },
+    { "skill": "Tamil language", "category": "language", "is_hidden": false, "evidence": "Native language", "esco_label": "Tamil", "esco_uri": "" },
+    { "skill": "Household accounting", "category": "technical", "is_hidden": false, "evidence": "Keeps khatabook accounts", "esco_label": "Basic bookkeeping", "esco_uri": "" },
+    { "skill": "Production line coordination", "category": "technical", "is_hidden": true, "source_activity": "Working on garment assembly line", "confidence": 0.88, "esco_label": "Coordinate production activities", "esco_uri": "" },
+    { "skill": "Defect pattern recognition", "category": "technical", "is_hidden": true, "source_activity": "Quality control inspection work", "confidence": 0.91, "esco_label": "Identify defects", "esco_uri": "" },
+    { "skill": "Specification reading", "category": "technical", "is_hidden": true, "source_activity": "Reading garment specification sheets", "confidence": 0.85, "esco_label": "Read technical specifications", "esco_uri": "" },
+    { "skill": "Time management under targets", "category": "soft", "is_hidden": true, "source_activity": "Meeting daily production quotas", "confidence": 0.87, "esco_label": "Time management", "esco_uri": "" },
+    { "skill": "Cost tracking and budgeting", "category": "technical", "is_hidden": true, "source_activity": "Keeping household accounts in khatabook", "confidence": 0.83, "esco_label": "Budget management", "esco_uri": "" },
+    { "skill": "Peer training", "category": "soft", "is_hidden": true, "source_activity": "Training new workers at the station", "confidence": 0.80, "esco_label": "Train employees", "esco_uri": "" },
+    { "skill": "Process optimization", "category": "technical", "is_hidden": true, "source_activity": "Finding faster ways to complete stitch patterns", "confidence": 0.75, "esco_label": "Optimise production processes", "esco_uri": "" }
+  ],
+  "skill_counts": { "total": 12, "explicit": 5, "hidden": 7 },
+  "intake_transcript": [
+    { "question": "What do you spend most of your time doing each day?", "answer": "I work in a garment factory in Tirupur. I sew sleeves and check for defects at the quality station." },
+    { "question": "What skills have you learned on your own?", "answer": "I taught myself to read the specification sheets in English. I also keep my household accounts in a khatabook." },
+    { "question": "What languages do you speak?", "answer": "Tamil is my mother tongue. I can read basic English from the spec sheets at work." },
+    { "question": "Have you ever taught someone or organized people?", "answer": "Yes, when new workers join, the supervisor asks me to show them how to set up the machine correctly." },
+    { "question": "What tools or technology do you use?", "answer": "Industrial sewing machine, measuring tape, defect inspection light. I use a basic Android phone for WhatsApp." }
+  ]
+}

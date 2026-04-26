@@ -1,0 +1,30 @@
+{
+  "profile_id": "demo-fatima-bangladesh",
+  "session_id": "demo-fatima",
+  "generated_at": "2025-04-26T00:00:00Z",
+  "persona": "fatima_bangladesh",
+  "country": { "code": "BD", "name": "Bangladesh", "region": "South Asia" },
+  "summary": "Fatima is a 25-year-old seamstress from Dhaka who runs a small tailoring business from home and has trained 6 women in her neighborhood through an informal group. She uses bKash for all transactions.",
+  "skills": [
+    { "skill": "Tailoring and garment construction", "category": "technical", "is_hidden": false, "evidence": "Runs home tailoring business", "esco_label": "Tailor", "esco_uri": "" },
+    { "skill": "Pattern cutting and measurement", "category": "technical", "is_hidden": false, "evidence": "Takes customer measurements and cuts patterns", "esco_label": "Pattern cutting", "esco_uri": "" },
+    { "skill": "Bengali language", "category": "language", "is_hidden": false, "evidence": "Native language", "esco_label": "Bengali", "esco_uri": "" },
+    { "skill": "bKash digital payments", "category": "technical", "is_hidden": false, "evidence": "Uses bKash for all business transactions", "esco_label": "Digital payment processing", "esco_uri": "" },
+    { "skill": "Informal group facilitation", "category": "soft", "is_hidden": false, "evidence": "Trained 6 women in tailoring skills", "esco_label": "Group facilitation", "esco_uri": "" },
+    { "skill": "Process sequencing", "category": "technical", "is_hidden": true, "source_activity": "Breaking garment construction into ordered steps", "confidence": 0.89, "esco_label": "Process management", "esco_uri": "" },
+    { "skill": "Instruction design", "category": "soft", "is_hidden": true, "source_activity": "Teaching tailoring to neighborhood women step by step", "confidence": 0.85, "esco_label": "Design learning activities", "esco_uri": "" },
+    { "skill": "Client specification interpretation", "category": "technical", "is_hidden": true, "source_activity": "Understanding customer requests and translating to garment design", "confidence": 0.90, "esco_label": "Interpret customer requirements", "esco_uri": "" },
+    { "skill": "Micro-enterprise management", "category": "technical", "is_hidden": true, "source_activity": "Running home-based tailoring business for 4 years", "confidence": 0.88, "esco_label": "Manage small enterprise", "esco_uri": "" },
+    { "skill": "Material cost estimation", "category": "technical", "is_hidden": true, "source_activity": "Pricing garments to cover fabric and labor costs", "confidence": 0.84, "esco_label": "Cost estimation", "esco_uri": "" },
+    { "skill": "Quality standards enforcement", "category": "technical", "is_hidden": true, "source_activity": "Ensuring students meet quality standards in training", "confidence": 0.82, "esco_label": "Quality assurance", "esco_uri": "" },
+    { "skill": "Community leadership", "category": "soft", "is_hidden": true, "source_activity": "Organizing and leading training group of women", "confidence": 0.80, "esco_label": "Community leadership", "esco_uri": "" }
+  ],
+  "skill_counts": { "total": 12, "explicit": 5, "hidden": 7 },
+  "intake_transcript": [
+    { "question": "What do you spend most of your time doing each day?", "answer": "I sew clothes from home. Customers come with fabric and I make salwar kameez, blouses, school uniforms." },
+    { "question": "What skills have you learned on your own?", "answer": "I learned all my tailoring from my aunt, not from any school. I also taught myself how to use bKash so customers can pay me on their phone." },
+    { "question": "What languages do you speak?", "answer": "Bengali only. A little bit of English words I know from the garment spec sheets my sister shows me." },
+    { "question": "Have you ever taught someone or organized people?", "answer": "Yes, I teach tailoring to women in my neighborhood. Six women are learning from me now in our weekly group." },
+    { "question": "What tools or technology do you use?", "answer": "Sewing machine, scissors, measuring tape, chalk, iron. And bKash on my phone for payments." }
+  ]
+}

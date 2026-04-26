@@ -1,0 +1,32 @@
+{
+  "profile_id": "demo-amara-ghana",
+  "session_id": "demo-amara",
+  "generated_at": "2025-04-26T00:00:00Z",
+  "persona": "amara_ghana",
+  "country": { "code": "GH", "name": "Ghana", "region": "Sub-Saharan Africa" },
+  "summary": "Amara is a 22-year-old self-taught phone repair technician from outside Accra who has run her own stall since age 17. She speaks Twi, Ga, and English, taught herself JavaScript from YouTube, and manages her own inventory and supplier relationships.",
+  "skills": [
+    { "skill": "Mobile phone repair", "category": "technical", "is_hidden": false, "evidence": "Running phone repair business since age 17", "esco_label": "Electronic equipment repairer", "esco_uri": "http://data.europa.eu/esco/occupation/5d3a2e4a" },
+    { "skill": "Basic JavaScript coding", "category": "technical", "is_hidden": false, "evidence": "Taught myself coding from YouTube", "esco_label": "Web developer", "esco_uri": "http://data.europa.eu/esco/occupation/f2b15a3c" },
+    { "skill": "Twi language", "category": "language", "is_hidden": false, "evidence": "Speaks three languages", "esco_label": "Twi", "esco_uri": "" },
+    { "skill": "Ga language", "category": "language", "is_hidden": false, "evidence": "Speaks three languages", "esco_label": "Ga", "esco_uri": "" },
+    { "skill": "English language", "category": "language", "is_hidden": false, "evidence": "Speaks English for business", "esco_label": "English language", "esco_uri": "" },
+    { "skill": "Inventory management", "category": "technical", "is_hidden": true, "source_activity": "Running phone repair business", "confidence": 0.92, "esco_label": "Inventory management", "esco_uri": "http://data.europa.eu/esco/skill/b4c21d9e" },
+    { "skill": "Supplier relationship management", "category": "soft", "is_hidden": true, "source_activity": "Sourcing spare parts from suppliers", "confidence": 0.88, "esco_label": "Manage supplier relationships", "esco_uri": "http://data.europa.eu/esco/skill/c5d32e1f" },
+    { "skill": "Customer needs diagnosis", "category": "soft", "is_hidden": true, "source_activity": "Diagnosing which phone component is faulty", "confidence": 0.90, "esco_label": "Identify customer needs", "esco_uri": "http://data.europa.eu/esco/skill/d6e43f2a" },
+    { "skill": "Price negotiation", "category": "soft", "is_hidden": true, "source_activity": "Negotiating repair price with customers", "confidence": 0.85, "esco_label": "Negotiate", "esco_uri": "http://data.europa.eu/esco/skill/e7f54a3b" },
+    { "skill": "Demand forecasting", "category": "technical", "is_hidden": true, "source_activity": "Ordering parts before they run out", "confidence": 0.78, "esco_label": "Demand forecasting", "esco_uri": "http://data.europa.eu/esco/skill/f8a65b4c" },
+    { "skill": "Cash flow management", "category": "technical", "is_hidden": true, "source_activity": "Running a business for 5 years", "confidence": 0.82, "esco_label": "Manage cash flow", "esco_uri": "http://data.europa.eu/esco/skill/a9b76c5d" },
+    { "skill": "Self-directed learning", "category": "soft", "is_hidden": true, "source_activity": "Taught herself coding from YouTube", "confidence": 0.95, "esco_label": "Self-directed learning", "esco_uri": "http://data.europa.eu/esco/skill/b0c87d6e" },
+    { "skill": "Digital literacy", "category": "technical", "is_hidden": true, "source_activity": "Using YouTube and online resources", "confidence": 0.88, "esco_label": "Digital literacy", "esco_uri": "http://data.europa.eu/esco/skill/c1d98e7f" },
+    { "skill": "Fault diagnosis", "category": "technical", "is_hidden": true, "source_activity": "Diagnosing faulty phone components", "confidence": 0.93, "esco_label": "Diagnose malfunctions", "esco_uri": "http://data.europa.eu/esco/skill/d2e09f8a" }
+  ],
+  "skill_counts": { "total": 14, "explicit": 5, "hidden": 9 },
+  "intake_transcript": [
+    { "question": "What do you spend most of your time doing each day?", "answer": "I repair phones at my stall near Accra. I buy broken phones, fix them and sell them, or fix phones for customers." },
+    { "question": "What skills or things have you learned on your own?", "answer": "I taught myself coding from YouTube. I watch videos on JavaScript when I have free time at the stall." },
+    { "question": "What languages do you speak?", "answer": "I speak Twi, Ga, and English. I use English and Twi with customers." },
+    { "question": "Have you ever taught someone or organized people?", "answer": "Yes, I taught my younger brother how to replace phone screens. I also helped two girls from my neighborhood learn how to use smartphones." },
+    { "question": "What tools or technology do you use regularly?", "answer": "Soldering iron, screwdrivers, multimeter for testing circuits. I also use WhatsApp to contact my parts suppliers." }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "profile_id": "demo-james-nigeria",
+  "session_id": "demo-james",
+  "generated_at": "2025-04-26T00:00:00Z",
+  "persona": "james_nigeria",
+  "country": { "code": "NG", "name": "Nigeria", "region": "West Africa" },
+  "summary": "James is a 28-year-old market trader from Lagos who sources electronics from Alaba International Market and sells across 3 states. He manages a 6-person distribution network, speaks 4 languages, and coordinates logistics via WhatsApp.",
+  "skills": [
+    { "skill": "Market trading and sales", "category": "technical", "is_hidden": false, "evidence": "Electronics trader for 5 years", "esco_label": "Market trader", "esco_uri": "" },
+    { "skill": "Multi-state logistics coordination", "category": "technical", "is_hidden": false, "evidence": "Distributes goods across 3 states", "esco_label": "Logistics coordination", "esco_uri": "" },
+    { "skill": "Yoruba language", "category": "language", "is_hidden": false, "evidence": "Native language", "esco_label": "Yoruba", "esco_uri": "" },
+    { "skill": "Igbo language", "category": "language", "is_hidden": false, "evidence": "Uses Igbo with Alaba Market suppliers", "esco_label": "Igbo", "esco_uri": "" },
+    { "skill": "Pidgin English", "category": "language", "is_hidden": false, "evidence": "Primary language for cross-regional trade", "esco_label": "Nigerian Pidgin", "esco_uri": "" },
+    { "skill": "English language", "category": "language", "is_hidden": false, "evidence": "Uses English for written communication", "esco_label": "English language", "esco_uri": "" },
+    { "skill": "Supplier price negotiation", "category": "soft", "is_hidden": true, "source_activity": "Negotiating bulk prices at Alaba Market", "confidence": 0.93, "esco_label": "Negotiate supplier prices", "esco_uri": "" },
+    { "skill": "Demand forecasting", "category": "technical", "is_hidden": true, "source_activity": "Knowing which electronics sell before rainy season vs dry season", "confidence": 0.87, "esco_label": "Demand forecasting", "esco_uri": "" },
+    { "skill": "Team coordination", "category": "soft", "is_hidden": true, "source_activity": "Managing 6-person distribution network via WhatsApp", "confidence": 0.88, "esco_label": "Coordinate team activities", "esco_uri": "" },
+    { "skill": "Price arbitrage analysis", "category": "technical", "is_hidden": true, "source_activity": "Identifying price gaps between Lagos and Kano markets", "confidence": 0.85, "esco_label": "Market analysis", "esco_uri": "" },
+    { "skill": "Credit risk assessment", "category": "technical", "is_hidden": true, "source_activity": "Deciding which customers can buy on credit", "confidence": 0.82, "esco_label": "Credit assessment", "esco_uri": "" },
+    { "skill": "Cross-cultural communication", "category": "soft", "is_hidden": true, "source_activity": "Trading with Igbo, Hausa and Yoruba communities", "confidence": 0.90, "esco_label": "Intercultural communication", "esco_uri": "" },
+    { "skill": "Digital communication tools", "category": "technical", "is_hidden": true, "source_activity": "Managing distributor network via WhatsApp groups", "confidence": 0.83, "esco_label": "Use digital communication tools", "esco_uri": "" }
+  ],
+  "skill_counts": { "total": 13, "explicit": 6, "hidden": 7 },
+  "intake_transcript": [
+    { "question": "What do you spend most of your time doing each day?", "answer": "I buy electronics from Alaba Market in Lagos and sell them. I have distributors in Abuja and Kano who take stock from me." },
+    { "question": "What skills have you learned on your own?", "answer": "I learned how to read which products will sell. Like before the rainy season, generators move fast. I also manage my distributors through WhatsApp groups I created." },
+    { "question": "What languages do you speak?", "answer": "Yoruba is my mother tongue. I speak Igbo to deal with Alaba suppliers. I speak Pidgin with everyone. And English for writing." },
+    { "question": "Have you ever taught someone or organized people?", "answer": "I trained my two younger cousins to handle the Lagos delivery side. I also run the Kano distributor group and I resolve disputes when they have problems." },
+    { "question": "What tools or technology do you use?", "answer": "Smartphone, WhatsApp, POS machine for card payments. I use Excel to track which distributors owe me money." }
+  ]
+}

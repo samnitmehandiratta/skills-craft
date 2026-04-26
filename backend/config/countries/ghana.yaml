@@ -1,0 +1,104 @@
+country_code: "GH"
+country_name: "Ghana"
+language: "en"
+currency: "GHS"
+currency_name: "Ghanaian Cedi"
+flag_emoji: "🇬🇭"
+region: "Sub-Saharan Africa"
+
+labor_data:
+  ilo_ref_area: "GHA"
+  wdi_country_code: "GHA"
+  informal_economy_pct: 0.89
+
+education_taxonomy:
+  levels:
+    - "No formal education"
+    - "Primary (BECE)"
+    - "Secondary (WASSCE)"
+    - "Technical/TVET (NVTI, COTVET)"
+    - "Tertiary (Polytechnic/University)"
+  tvet_institutions: ["NVTI", "COTVET", "Polytechnic"]
+  credential_label: "WASSCE / BECE"
+
+automation:
+  calibration_factor: 0.72
+  at_risk_threshold: 0.70
+  durable_threshold: 0.30
+  rationale: "High labor informality rate and lower capital costs delay automation adoption"
+
+sector_vocabulary:
+  - "mobile money"
+  - "susu collection"
+  - "kente weaving"
+  - "agro-processing"
+  - "artisan mining"
+  - "chop bar"
+  - "hawking"
+  - "head porter"
+
+informal_economy_activities:
+  - phrase: "susu collector"
+    hidden_skill_hints:
+      - "savings coordination"
+      - "trust building"
+      - "financial record-keeping"
+      - "community relationship management"
+  - phrase: "mobile money agent"
+    hidden_skill_hints:
+      - "float management"
+      - "transaction reconciliation"
+      - "customer identity verification"
+      - "cash flow management"
+  - phrase: "chop bar"
+    hidden_skill_hints:
+      - "food safety practices"
+      - "inventory management"
+      - "cost control"
+      - "customer service"
+  - phrase: "kente weaving"
+    hidden_skill_hints:
+      - "pattern recognition"
+      - "precision handiwork"
+      - "cultural knowledge"
+      - "quality control"
+
+opportunity_types:
+  - formal_employment
+  - self_employment
+  - cooperative_membership
+  - digital_freelance
+  - vocational_upskilling
+
+wage_bands:
+  informal_minimum: 600
+  formal_entry: 1200
+  skilled_trade: 2500
+  digital_economy: 4000
+  currency: "GHS"
+
+intake_prompts:
+  greeting: "Hello! I'm here to help map your skills and connect you with opportunities in Ghana."
+  language_question: "What languages do you speak? (e.g. Twi, Ga, Hausa, Ewe, English)"
+
+wdi_indicators:
+  youth_unemployment: "SL.UEM.1524.ZS"
+  employment_ratio: "SL.EMP.TOTL.SP.ZS"
+  gdp_per_capita: "NY.GDP.PCAP.CD"
+
+top_sectors:
+  - name: "Information & Communication Technology"
+    growth_rate: 0.18
+    ilo_code: "J"
+  - name: "Agriculture & Agro-processing"
+    growth_rate: 0.06
+    ilo_code: "A"
+  - name: "Construction & Infrastructure"
+    growth_rate: 0.09
+    ilo_code: "F"
+  - name: "Retail & Trade"
+    growth_rate: 0.07
+    ilo_code: "G"
+  - name: "Financial Services"
+    growth_rate: 0.12
+    ilo_code: "K"

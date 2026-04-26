@@ -1,0 +1,122 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  /* Minecraft palette */
+  --mc-bg:       #1a1a1a;
+  --mc-panel:    #3d3d3d;
+  --mc-border-d: #1b1b1b;
+  --mc-border-l: #8b8b8b;
+  --mc-green:    #5aad1e;
+  --mc-green-h:  #7bc832;
+  --mc-green-d:  #3d7514;
+  --mc-gold:     #f8b700;
+  --mc-diamond:  #4fd0e4;
+  --mc-xp:       #80ff20;
+  --mc-red:      #c03030;
+  --mc-text:     #e0e0e0;
+  --mc-muted:    #888888;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ── Minecraft UI primitives ─────────────────────────────────────────────── */
+.mc-font { font-family: 'VT323', 'Courier New', monospace; }
+
+.mc-panel {
+  background: #3d3d3d;
+  border: 3px solid #1b1b1b;
+  box-shadow: inset 2px 2px 0 #8b8b8b, inset -2px -2px 0 #1b1b1b;
+  image-rendering: pixelated;
+}
+
+.mc-panel-inset {
+  background: #1a1a1a;
+  border: 3px solid #1b1b1b;
+  box-shadow: inset 2px 2px 0 #1b1b1b, inset -2px -2px 0 #8b8b8b;
+}
+
+.mc-btn-green {
+  background: #5aad1e;
+  border: 3px solid #1b1b1b;
+  box-shadow: inset -3px -3px 0 #3d7514, inset 3px 3px 0 #7bc832;
+  color: #ffffff;
+  font-family: 'VT323', monospace;
+  font-size: 1.4rem;
+  text-shadow: 2px 2px 0 #000;
+  transition: filter 0.05s;
+  cursor: pointer;
+  image-rendering: pixelated;
+  letter-spacing: 0.03em;
+}
+.mc-btn-green:hover { filter: brightness(1.15); }
+.mc-btn-green:active {
+  box-shadow: inset 3px 3px 0 #3d7514, inset -3px -3px 0 #7bc832;
+  transform: translateY(2px);
+}
+.mc-btn-green:disabled {
+  filter: brightness(0.5);
+  cursor: not-allowed;
+  transform: none;
+}
+
+.mc-btn-stone {
+  background: #888888;
+  border: 3px solid #1b1b1b;
+  box-shadow: inset -3px -3px 0 #555555, inset 3px 3px 0 #aaaaaa;
+  color: #e0e0e0;
+  font-family: 'VT323', monospace;
+  font-size: 1.25rem;
+  text-shadow: 1px 1px 0 #000;
+  transition: filter 0.05s;
+  cursor: pointer;
+}
+.mc-btn-stone:hover { filter: brightness(1.1); }
+.mc-btn-stone:active {
+  box-shadow: inset 3px 3px 0 #555555, inset -3px -3px 0 #aaaaaa;
+  transform: translateY(1px);
+}
+
+.mc-xp-bar {
+  background: #1a1a1a;
+  border: 2px solid #1b1b1b;
+  box-shadow: inset 1px 1px 0 #3d3d3d;
+  height: 12px;
+  position: relative;
+  overflow: hidden;
+}
+.mc-xp-fill {
+  background: #80ff20;
+  box-shadow: 0 0 6px #80ff2088;
+  height: 100%;
+  transition: width 0.5s ease-out;
+}
+
+.mc-slot {
+  background: #3d3d3d;
+  border: 2px solid #1b1b1b;
+  box-shadow: inset 2px 2px 0 #1b1b1b, inset -2px -2px 0 #8b8b8b;
+}
+
+.mc-text-shadow { text-shadow: 2px 2px 0 #000; }
+
+/* Pixel grid background overlay */
+.mc-bg {
+  background-color: #1a1a1a;
+  background-image:
+    linear-gradient(rgba(255,255,255,0.02) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.02) 1px, transparent 1px);
+  background-size: 16px 16px;
+}
